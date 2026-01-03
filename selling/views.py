@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def sell_book(request):
+    return render(request, 'sell/sell_book.html')

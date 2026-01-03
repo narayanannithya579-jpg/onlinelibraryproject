@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def notifications_page(request):
+    return render(request, 'notifications/notifications.html')
